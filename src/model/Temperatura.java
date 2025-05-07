@@ -15,11 +15,12 @@ public void setCelsius(double celsius) {
 	
 public double converterParaKelvin() {
 	double kelvin = (celsius + 273);
-	return celsius;
+	return kelvin;
 }
 
 public double converterParaFahreinheit() {
-	return celsius;
+	double fahreinheit = (celsius * 9/5) + 32;
+	return fahreinheit;
 }
 
 
