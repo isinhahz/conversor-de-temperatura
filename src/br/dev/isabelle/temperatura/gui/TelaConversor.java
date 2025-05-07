@@ -34,18 +34,18 @@ public class TelaConversor {
 		labelCelsius.setBounds(100, 3, 250, 30);
 		
 		textCelsius = new JTextField();
-		textCelsius.setBounds(180, 20, 50, 30);
+		textCelsius.setBounds(180, 40, 50, 30);
 		
 		labelResultado = new JLabel();
 		labelResultado.setBounds(180, 80, 100, 20);
 		
 		buttonFahreinheit = new JButton();
 		buttonFahreinheit.setText("FAHREINHEIT");
-		buttonFahreinheit.setBounds(20, 155, 105, 30);
+		buttonFahreinheit.setBounds(20, 155, 150, 30);
 		
 		buttonKelvin = new JButton();
 		buttonKelvin.setText("KELVIN");
-		buttonKelvin.setBounds(135, 155, 100, 30);
+		buttonKelvin.setBounds(200, 155, 160, 30);
 		
 		//painel de conteudo
 		tela.getContentPane().add(labelCelsius);
